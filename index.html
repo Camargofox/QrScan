@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ScanCode</title>
+
+</head>
+
+<body>
+    <div class="todoconteudo">
+        <div class="a">
+            <div class="b">
+                <h2>Bem-vindo ao ScanCode</h2>
+                <p>Escaneie códigos QR para adicionar os Chromebooks!</p>
+            </div>
+            <div class="container">
+                <div class="btns">
+                    <button class="btn_scan">SCANEAR</button>
+                    <!-- <button class="btn_fcadastro">FINALIZAR CADASTRO</button> -->
+                </div>
+                <div class="sqr" id="qr-reader"></div>
+                <div class="label-input">
+                    <label for="cadastrados" style="font-weight: bold;">Chromebooks cadastrados:</label>
+                    <div class="lista">
+                        <input type="text" id="cadastrados" name="cadastrados" placeholder="Os Chromebooks cadastrados ficam aqui">
+                        <img id="btn_del" src="./assets/del.jpg" style="width: 25px;" alt="botão del">
+                    </div>
+                    <ul id="lista-cadastrados"></ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Desenvolvido por <span><a href="https://github.com/Camargofox"  style="text-decoration: none; font-weight: bold; color:orange; cursor: pointer;">Saulo Camargo</a></span></p>
+    </footer>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script src="./scripts/script.js"></script>
+
+</body>
+
+
+</html>
