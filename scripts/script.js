@@ -4,8 +4,9 @@ const inputCadastrados = document.getElementById("cadastrados");
 const qrReaderDiv = document.getElementById("qr-reader");
 const listaCadastrados = document.getElementById("lista-cadastrados");
 
-let cadastrados = [];
+let cadastrados = [];// Array para armazenar os itens cadastrados
 
+// Função para atualizar a lista exibida
 function atualizarLista() {
     listaCadastrados.innerHTML = "";
     cadastrados.forEach((item, index) => {
@@ -32,10 +33,12 @@ function atualizarLista() {
             atualizarLista();
         };
 
+        // Adiciona o item e o botão à div do item
         itemDiv.appendChild(li);
         itemDiv.appendChild(btnDelete);
         listaCadastrados.appendChild(itemDiv);
 
+        // Atualiza o contador
         const contador = cadastrados.length;
         inputCadastrados.value = `${contador} cadastrados`;
         if (contador == 1) {

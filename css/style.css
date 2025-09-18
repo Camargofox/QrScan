@@ -65,9 +65,9 @@ input {
     display: flex;
     margin: 20px auto;
     width: 200px;
-    height: 200px;
+    height: 151px;
     border: 2px solid #ccc;
-    border-radius: 20px;
+    
 }
 
 #btn_del {
@@ -82,3 +82,4 @@ li {
     border-radius: 8px;
        
 }
+
