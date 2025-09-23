@@ -83,3 +83,51 @@ li {
        
 }
 
+
+/* ...existing code... */
+
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+    .todoconteudo {
+        width: 98vw;
+        margin-left: 1vw;
+        border-radius: 24px;
+        flex-direction: column;
+        padding: 10px;
+    }
+    input {
+        width: 90vw;
+        max-width: 100%;
+    }
+    .sqr {
+        width: 90vw;
+        max-width: 300px;
+        height: 180px;
+    }
+    .lista {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 500px) {
+    .todoconteudo {
+        width: 100vw;
+        margin-left: 0;
+        border-radius: 0;
+        padding: 4px;
+    }
+    input {
+        width: 95vw;
+        font-size: 1em;
+    }
+    .sqr {
+        width: 95vw;
+        max-width: 220px;
+        height: 120px;
+    }
+    button {
+        width: 100%;
+        font-size: 1em;
+    }
+}
