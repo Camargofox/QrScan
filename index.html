@@ -25,8 +25,15 @@
                 <div class="label-input">
                     <label for="cadastrados" style="font-weight: bold;">Chromebooks cadastrados:</label>
                     <div class="lista">
-                        <input type="text" id="cadastrados" name="cadastrados" placeholder="Os Chromebooks cadastrados ficam aqui">
+                        <input type="text" id="cadastrados" name="cadastrados"
+                            placeholder="Os Chromebooks cadastrados ficam aqui">
                         <img id="btn_del" src="./assets/del.jpg" style="width: 25px;" alt="botão del">
+                    </div>
+                    <div style="display: flex; justify-content: center; margin-bottom: 12px;">
+                        <label for="seletor" style="font-weight: bold;" >Local</label>
+                        <select id="seletor" style="width: 120px; border-radius: 2px; margin-left: 5px;  ">
+                            <option value=""></option>
+                            <option value=""></option>
                     </div>
                     <ul id="lista-cadastrados"></ul>
                 </div>
@@ -36,7 +43,9 @@
 
     </div>
     <footer>
-        <p>Desenvolvido por <span><a href="https://github.com/Camargofox"  style="text-decoration: none; font-weight: bold; color:orange; cursor: pointer;">Saulo Camargo</a></span></p>
+        <p>Desenvolvido por <span><a href="https://github.com/Camargofox"
+                    style="text-decoration: none; font-weight: bold; color:orange; cursor: pointer;">Saulo
+                    Camargo</a></span></p>
     </footer>
     <script src="https://unpkg.com/html5-qrcode"></script>
     <script src="./scripts/script.js"></script>
