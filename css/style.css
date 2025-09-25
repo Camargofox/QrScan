@@ -110,7 +110,7 @@ li {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .todoconteudo {
         width: 100vw;
         margin-left: 0;
@@ -123,11 +123,11 @@ li {
     }
     .sqr {
         width: 95vw;
-        max-width: 220px;
+        max-width: 60%;
         height: 120px;
     }
     button {
-        width: 100%;
+        width: 60%;
         font-size: 1em;
     }
 }

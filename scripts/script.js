@@ -63,7 +63,7 @@ btnScan.addEventListener("click", () => {
         { facingMode: "environment" },
         {
             fps: 10,
-            qrbox: 200
+            qrbox: 200,
         },
         (decodedText, decodedResult) => {
             cadastrados.push(decodedText);
